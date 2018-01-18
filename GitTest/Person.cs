@@ -6,6 +6,10 @@ namespace GitTest
         string Name;
         int Age;
 
+        public void sayHello() {
+            Console.WriteLine("Hello, there!");
+        }
+
         public Person(string Name, int Age)
         {
             this.Name = Name;
