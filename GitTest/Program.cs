@@ -8,7 +8,7 @@ namespace GitTest
         {
             Console.WriteLine("Hello World!");
 
-            Person person1 = new Person("Mikhail", "19");
+            Person person1 = new Person("Mikhail", 19);
         }
     }
 }
